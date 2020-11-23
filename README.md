@@ -1,10 +1,7 @@
 # Student-Info
-Sample app displaying mock student info data mocked in Firestore
-
-__**Student Info - Android**__
 ==============================
 
-Sample project app for displaying student info data as mocked single page app with minimalistic functionality (no navigation or button clicks).
+Sample Android app for displaying student info data as mocked single page app with minimalistic functionality (no navigation or button clicks).
 
 Mock data is hosted on and fetched from Firestore.
 
