@@ -1,5 +1,4 @@
 # Student-Info
-==============================
 
 Sample Android app for displaying student info data as mocked single page app with minimalistic functionality (no navigation or button clicks).
 
