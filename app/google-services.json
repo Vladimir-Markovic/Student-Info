@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "573433403598",
+    "firebase_url": "https://student-info-vlad.firebaseio.com",
+    "project_id": "student-info-vlad",
+    "storage_bucket": "student-info-vlad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:573433403598:android:f9e98983e6fd1c0e8c189f",
+        "android_client_info": {
+          "package_name": "com.vladmarkovic.studentinfo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "573433403598-okv8f0olgo1uui3b5tcfcpvoer3582sq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.vladmarkovic.studentinfo",
+            "certificate_hash": "750d4a56b4ff84b213913cdf33517cd2bc17a639"
+          }
+        },
+        {
+          "client_id": "573433403598-vh6ee606clchfcejfu4t4ufl3emnu9ua.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChnhIjbf04BckPaR9tIrH1V2r_fQrHAGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "573433403598-vh6ee606clchfcejfu4t4ufl3emnu9ua.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

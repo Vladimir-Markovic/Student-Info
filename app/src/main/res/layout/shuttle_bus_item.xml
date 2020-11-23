@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/shuttleBusItemLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/item_padding_vertical">
+
+        <TextView
+            android:id="@+id/busStation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Clayton" />
+
+        <ImageView
+            android:layout_width="@dimen/bus_route_image_size"
+            android:layout_height="@dimen/bus_route_image_size"
+            android:layout_marginStart="@dimen/item_text_padding_horizontal"
+            android:layout_marginEnd="@dimen/item_text_padding_horizontal"
+            android:importantForAccessibility="no"
+            android:src="@drawable/ic_bus_route" />
+
+        <TextView
+            android:id="@+id/busDestination"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="Peninsula" />
+
+        <TextView
+            android:id="@+id/busArrivalTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorSummaryAccent"
+            android:textStyle="bold"
+            tools:text="16" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/itemDivider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:background="@color/colorItemDivider" />
+
+</FrameLayout>

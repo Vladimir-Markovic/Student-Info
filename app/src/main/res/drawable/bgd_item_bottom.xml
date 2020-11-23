@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/bgd_shadow_bottom" />
+    <item>
+        <shape>
+            <padding
+                android:top="@dimen/item_padding_vertical"
+                android:left="@dimen/item_padding_horizontal"
+                android:right="@dimen/item_padding_horizontal" />
+            <corners
+                android:bottomLeftRadius="@dimen/item_radius"
+                android:bottomRightRadius="@dimen/item_radius" />
+            <solid android:color="@android:color/white" />
+        </shape>
+    </item>
+</layer-list>

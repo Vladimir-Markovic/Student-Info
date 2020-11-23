@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="list_margin_horizontal">4dp</dimen>
+    <dimen name="overview_button_margin_end">12dp</dimen>
+    <dimen name="item_radius">4dp</dimen>
+    <dimen name="item_padding_horizontal">24dp</dimen>
+    <dimen name="item_padding_vertical">16dp</dimen>
+    <dimen name="item_text_padding_horizontal">16dp</dimen>
+    <dimen name="item_text_padding_vertical">8dp</dimen>
+    <dimen name="item_text_padding_vertical_half">4dp</dimen>
+    <dimen name="section_title_margin_horizontal">16dp</dimen>
+    <dimen name="section_title_margin_top">24dp</dimen>
+    <dimen name="day_label_margin_bottom">12dp</dimen>
+
+    <dimen name="colored_circle_size">12dp</dimen>
+    <dimen name="colored_circle_margin_horizontal">2dp</dimen>
+    <dimen name="colored_circle_margin_top">4dp</dimen>
+    <dimen name="image_button_size">40dp</dimen>
+    <dimen name="bus_route_image_size">28dp</dimen>
+
+    <dimen name="normalTextSize">16sp</dimen>
+    <dimen name="titleTextSize">18sp</dimen>
+</resources>

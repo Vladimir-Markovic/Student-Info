@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/bgd_shadow_top" />
+    <item>
+        <shape>
+            <corners
+                android:topLeftRadius="@dimen/item_radius"
+                android:topRightRadius="@dimen/item_radius" />
+            <solid android:color="@android:color/white" />
+        </shape>
+    </item>
+</layer-list>

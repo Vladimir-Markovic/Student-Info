@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/classTitleItemLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="0dp">
+
+    <TextView
+        android:id="@+id/classSessionsTitle"
+        style="@style/Text.Title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/day_label_margin_bottom"
+        android:background="@drawable/bgd_day_label"
+        android:paddingStart="@dimen/item_text_padding_horizontal"
+        android:paddingTop="@dimen/item_text_padding_vertical_half"
+        android:paddingEnd="@dimen/item_text_padding_horizontal"
+        android:paddingBottom="@dimen/item_text_padding_vertical_half"
+        android:text="@string/class_sessions_title"
+        android:textColor="@android:color/white" />
+
+    <Space
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+
+    <ImageButton
+        android:id="@+id/classSessionsOverviewButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="@dimen/overview_button_margin_end"
+        android:background="@android:color/transparent"
+        android:contentDescription="@string/class_session_overview_button_content_description"
+        android:src="@drawable/ic_overview" />
+
+</LinearLayout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rewardsCoordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/rewardsAppBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:id="@+id/rewardsCollapsingToolbarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/section_title_margin_horizontal">
+
+                <TextView
+                    android:id="@+id/personalGreeting"
+                    style="@style/Text.Title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:text="Hey Jane" />
+
+                <TextView
+                    android:id="@+id/dateAndWeek"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/colorSubText"
+                    android:textSize="14sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@id/personalGreeting"
+                    tools:text="15/05, Week 8" />
+
+                <ImageButton
+                    android:id="@+id/searchButton"
+                    android:layout_width="@dimen/image_button_size"
+                    android:layout_height="@dimen/image_button_size"
+                    android:layout_marginEnd="8dp"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/search_button_content_description"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_search"
+                    app:layout_constraintEnd_toStartOf="@id/profileButton"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <ImageButton
+                    android:id="@+id/profileButton"
+                    android:layout_width="@dimen/image_button_size"
+                    android:layout_height="@dimen/image_button_size"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/profile_button_content_description"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ic_profile"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/summaryItemsList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:padding="@dimen/list_margin_horizontal"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context=".presentation.summary.SummaryActivity" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

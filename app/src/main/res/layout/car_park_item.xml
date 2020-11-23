@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/carParkItemLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/item_padding_vertical">
+
+        <TextView
+            android:id="@+id/carParkName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:text="Frankston live feed" />
+
+        <ImageView
+            style="@style/ColoredCircle"
+            android:layout_width="@dimen/colored_circle_size"
+            android:layout_height="@dimen/colored_circle_size"
+            android:background="@drawable/bgd_circle"
+            android:backgroundTint="@color/denim"
+            android:importantForAccessibility="no" />
+
+        <ImageView
+            style="@style/ColoredCircle"
+            android:layout_width="@dimen/colored_circle_size"
+            android:layout_height="@dimen/colored_circle_size"
+            android:background="@drawable/bgd_circle"
+            android:backgroundTint="@color/lavander"
+            android:importantForAccessibility="no" />
+
+        <ImageView
+            style="@style/ColoredCircle"
+            android:layout_width="@dimen/colored_circle_size"
+            android:layout_height="@dimen/colored_circle_size"
+            android:background="@drawable/bgd_circle"
+            android:backgroundTint="@color/blush"
+            android:importantForAccessibility="no" />
+
+        <ImageView
+            style="@style/ColoredCircle"
+            android:layout_width="@dimen/colored_circle_size"
+            android:layout_height="@dimen/colored_circle_size"
+            android:background="@drawable/bgd_circle"
+            android:backgroundTint="@color/alizarin"
+            android:importantForAccessibility="no" />
+
+        <ImageView
+            style="@style/ColoredCircle"
+            android:layout_width="@dimen/colored_circle_size"
+            android:layout_height="@dimen/colored_circle_size"
+            android:background="@drawable/bgd_circle"
+            android:backgroundTint="@color/selectiveYellow"
+            android:importantForAccessibility="no" />
+
+        <ImageView
+            style="@style/ColoredCircle"
+            android:layout_width="@dimen/colored_circle_size"
+            android:layout_height="@dimen/colored_circle_size"
+            android:background="@drawable/bgd_circle"
+            android:backgroundTint="@color/salem"
+            android:importantForAccessibility="no" />
+
+        <ImageView
+            style="@style/ColoredCircle"
+            android:layout_width="@dimen/colored_circle_size"
+            android:layout_height="@dimen/colored_circle_size"
+            android:background="@drawable/bgd_circle"
+            android:backgroundTint="@color/tangerine"
+            android:importantForAccessibility="no" />
+
+        <TextView
+            android:id="@+id/availableParkSpots"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/item_text_padding_horizontal"
+            android:gravity="end"
+            android:minWidth="28dp"
+            android:textColor="@color/colorSummaryAccent"
+            android:textStyle="bold"
+            tools:text="217" />
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/itemDivider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_gravity="bottom"
+        android:background="@color/colorItemDivider" />
+
+</FrameLayout>

@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="android:textColor">@color/colorNormalText</item>
+        <item name="android:textSize">@dimen/normalTextSize</item>
+    </style>
+
+    <style name="Text" parent="Theme.AppCompat.Light.DarkActionBar"/>
+
+    <style name="Text.Title" parent="Text">
+        <item name="android:textColor">@color/colorTitleText</item>
+        <item name="android:textSize">@dimen/titleTextSize</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ColoredCircle">
+        <item name="android:layout_marginEnd">@dimen/colored_circle_margin_horizontal</item>
+        <item name="android:layout_marginStart">@dimen/colored_circle_margin_horizontal</item>
+        <item name="android:gravity">top</item>
+    </style>
+
+</resources>

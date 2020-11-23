@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Student Info</string>
+
+    <string name="class_sessions_title">TODAY</string>
+    <string name="class_session_overview_button_content_description">Class Sessions Overview</string>
+    <string name="search_button_content_description">Search</string>
+    <string name="profile_button_content_description">Open Profile</string>
+
+    <string name="greetings_message_format">Hey, %s</string>
+
+    <string name="error_unknown">An unknown error occurred.</string>
+</resources>

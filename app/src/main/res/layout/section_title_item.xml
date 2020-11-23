@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sectionTitleItemLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/section_title_margin_horizontal"
+    android:layout_marginTop="@dimen/section_title_margin_top"
+    android:layout_marginEnd="@dimen/section_title_margin_horizontal">
+
+    <TextView
+        android:id="@+id/sectionTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorSubText" />
+
+</FrameLayout>

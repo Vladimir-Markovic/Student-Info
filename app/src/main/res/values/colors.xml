@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="blue_200">#03A9F4</color>
+    <color name="blue_500">#0C50D5</color>
+    <color name="blue_700">#043AA5</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="almostBlack">#333333</color>
+    <color name="darkGrey">#3A3A3A</color>
+    <color name="grey">#888888</color>
+    <color name="lightGrey">#EFEFEF</color>
+
+    <color name="denim">#0E6CA7</color>
+    <color name="lavander">#927FBA</color>
+    <color name="blush">#E95d9C</color>
+    <color name="alizarin">#E62D3F</color>
+    <color name="selectiveYellow">#FAB403</color>
+    <color name="salem">#0CA137</color>
+    <color name="tangerine">#F39100</color>
+
+    <color name="terracotta">#e27764</color>
+    <color name="punch">#dc493b</color>
+
+    <color name="colorPrimary">@color/darkGrey</color>
+    <color name="colorPrimaryDark">@color/almostBlack</color>
+    <color name="colorAccent">@color/denim</color>
+
+    <color name="colorNormalText">@android:color/black</color>
+    <color name="colorTitleText">@android:color/black</color>
+    <color name="colorSubText">@color/grey</color>
+
+    <color name="colorSummaryAccent">@color/colorAccent</color>
+    <color name="colorItemDivider">@color/lightGrey</color>
+
+    <color name="colorDayLabelStart">@color/terracotta</color>
+    <color name="colorDayLabelEnd">@color/punch</color>
+</resources>
